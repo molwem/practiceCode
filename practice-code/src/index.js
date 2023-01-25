@@ -20,9 +20,10 @@ import NoPage from "./Components/Pages/noPage";
 
 export default function App() {
   return (
+    <>
+    <Layout />
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
           <Route index element={<HOME />} />
           <Route path="reduxCalculator" element={<ReduxCalculator />} />
           <Route path="catPhotoApp" element={<CatPhotoApp />} />
@@ -34,9 +35,9 @@ export default function App() {
           <Route path="photoGallery" element={<PhotoGallery />} />
           <Route path="nutritionLabel" element={<NutritionLabel />} />
           <Route path="*" element={<NoPage />} />
-        </Route>
       </Routes>
     </BrowserRouter>
+    </>
   );
 }
 
