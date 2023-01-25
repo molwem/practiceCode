@@ -1,7 +1,8 @@
+import "../CSS/photoGallery.css"
+
 const PhotoGallery = () => {
     return (
       <>
-        <link rel="stylesheet" href="./styles.css"/>
   <body>
     <header class="header">
       <h1>css flexbox photo gallery</h1>

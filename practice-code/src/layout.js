@@ -1,44 +1,22 @@
-import { Outlet, Link } from "react-router-dom";
+// import { Outlet, Link } from "react-router-dom";
+import './layout.css'
 
 const Layout = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/catPhotoApp">Cat Photo App</Link>
-          </li>
-          <li>
-            <Link to="/camperCafe">Camper Cafe</Link>
-          </li>
-          <li>
-            <Link to="/colouredMarkers">Coloured Markers</Link>
-          </li>
-          <li>
-            <Link to="/registrationForm">Registration Form</Link>
-          </li>
-          <li>
-            <Link to="/surveyForm">Survey Form</Link>
-          </li>
-          <li>
-            <Link to="/NoPage">No Page</Link>
-          </li>
-          <li>
-            <Link to="/rothkoPainting">Rothko Painting</Link>
-          </li>
-          <li>
-            <Link to="/photoGallery">Photo Gallery</Link>
-          </li>
-          <li>
-            <Link to="/nutritionLabel">Nutrition Label</Link>
-          </li>
-        </ul>
-      </nav>
-
-      <Outlet />
+      <div class="sidenav">
+        <a href="/">Home</a>
+        <a href="/reduxCalculator">Redux Calculator</a>
+        <a href="/catPhotoApp">Cat Photo App</a>
+        <a href="/camperCafe">Camper Cafe</a>
+        <a href="/colouredMarkers">Coloured Markers</a>
+        <a href="/rothkoPainting">Rothko Painting</a>
+        <a href="/photoGallery">Photo Gallery</a>
+        <a href="/nutritionLabel">Nutritional Label</a>
+        <a href="/registrationForm">Registration Form</a>
+        <a href="/surveyForm">Survey Form</a>
+        <a href="/NoPage">No Page</a>
+      </div>
     </>
   );
 };

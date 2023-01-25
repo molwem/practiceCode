@@ -1,3 +1,5 @@
+import "../CSS/rothkoPainting.css"
+
 const RothkoPainting = () => {
   return (
     <>

@@ -1,7 +1,8 @@
+import "../CSS/camperCafe.css"
+
 const CamperCafe = () => {
   return (
     <>
-      <link rel="stylesheet" href="./CSS/camperCafe.css" />
       <body>
         <div class="menu">
           <main>

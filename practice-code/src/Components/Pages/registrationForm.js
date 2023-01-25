@@ -1,3 +1,5 @@
+import "../CSS/registrationForm.css"
+
 const RegistrationForm = () => {
   return (
     <>

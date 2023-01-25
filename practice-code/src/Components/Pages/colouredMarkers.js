@@ -1,7 +1,8 @@
+import "../CSS/colouredMarkers.css"
+
 const ColouredMarkers = () => {
   return (
     <>
-      <link rel="stylesheet" href="styles.css" />
       <body>
         <h1>CSS Color Markers</h1>
         <div class="container">

@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import Layout from "./layout";
 import HOME from "./Components/Pages/Home";
+import ReduxCalculator from "./Components/Pages/reduxCalculator/reduxCalculatorHome"
 import CatPhotoApp from "./Components/Pages/catPhotoApp";
 import CamperCafe from "./Components/Pages/camperCafe";
 import ColouredMarkers from "./Components/Pages/colouredMarkers";
@@ -15,8 +16,6 @@ import SurveyForm from "./Components/Pages/surveyForm";
 import RothkoPainting from "./Components/Pages/rothkoPainting";
 import PhotoGallery from "./Components/Pages/photoGallery";
 import NutritionLabel from "./Components/Pages/nutritionLabel";
-
-
 import NoPage from "./Components/Pages/noPage";
 
 export default function App() {
@@ -25,6 +24,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HOME />} />
+          <Route path="reduxCalculator" element={<ReduxCalculator />} />
           <Route path="catPhotoApp" element={<CatPhotoApp />} />
           <Route path="camperCafe" element={<CamperCafe />} />
           <Route path="colouredMarkers" element={<ColouredMarkers />} />

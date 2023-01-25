@@ -1,3 +1,5 @@
+import "../CSS/nutritionLabel.css"
+
 const NutritionLabel = () => {
   return (
     <>
@@ -5,8 +7,6 @@ const NutritionLabel = () => {
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800"
         rel="stylesheet"
       />
-      <link href="./styles.css" rel="stylesheet" />
-
       <body>
         <div class="label">
           <header>

@@ -1,3 +1,5 @@
+import "../CSS/surveyForm.css"
+
 const SurveyForm = () => {
   return (
     <>
