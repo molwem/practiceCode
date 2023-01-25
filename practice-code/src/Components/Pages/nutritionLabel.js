@@ -7,7 +7,7 @@ const NutritionLabel = () => {
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800"
         rel="stylesheet"
       />
-      <body>
+      <section class="nutritionLabelBody">
         <div class="label">
           <header>
             <h1 class="bold">Nutrition Facts</h1>
@@ -95,7 +95,7 @@ const NutritionLabel = () => {
             for general nutrition advice.
           </p>
         </div>
-      </body>
+      </section>
     </>
   );
 };

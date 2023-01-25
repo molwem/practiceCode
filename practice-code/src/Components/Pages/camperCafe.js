@@ -3,7 +3,7 @@ import "../CSS/camperCafe.css"
 const CamperCafe = () => {
   return (
     <>
-      <body>
+      <section class="camperCafeBody">
         <div class="menu">
           <main>
             <h1>CAMPER CAFE</h1>
@@ -70,7 +70,7 @@ const CamperCafe = () => {
             <p class="address">123 Free Code Camp Drive</p>
           </footer>
         </div>
-      </body>
+      </section>
     </>
   );
 };

@@ -3,7 +3,7 @@ import "../CSS/photoGallery.css"
 const PhotoGallery = () => {
     return (
       <>
-  <body>
+  <section class="photoGalleryBody">
     <header class="header">
       <h1>css flexbox photo gallery</h1>
     </header>
@@ -18,7 +18,7 @@ const PhotoGallery = () => {
       <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg" alt="tabby ginger kitten"/>
       <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg" alt="white tabby and black kittens"/>
     </div>
-  </body>
+  </section>
       </>
     );
   };

@@ -4,7 +4,7 @@ const RegistrationForm = () => {
   return (
     <>
       <link rel="stylesheet" href="styles.css" />
-      <body>
+      <section class="registrationFormBody">
         <h1>Registration Form</h1>
         <p>Please fill out this form with the required information</p>
         <form method="post" action="https://register-demo.freecodecamp.org">
@@ -97,7 +97,7 @@ const RegistrationForm = () => {
           </fieldset>
           <input type="submit" value="Submit" />
         </form>
-      </body>
+      </section>
     </>
   );
 };
