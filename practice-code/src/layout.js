@@ -1,4 +1,3 @@
-// import { Outlet, Link } from "react-router-dom";
 import './layout.css'
 
 const Layout = () => {
@@ -15,7 +14,7 @@ const Layout = () => {
         <a href="/nutritionLabel">Nutritional Label</a>
         <a href="/registrationForm">Registration Form</a>
         <a href="/surveyForm">Survey Form</a>
-        <a href="/NoPage">No Page</a>
+        <a href="/page-not-exist">No Page</a>
       </div>
     </>
   );
