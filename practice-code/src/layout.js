@@ -3,7 +3,7 @@ import './layout.css'
 const Layout = () => {
   return (
     <>
-      <div class="sidenav">
+      <div className="sidenav">
         <a href="/">Home</a>
         <a href="/reduxCalculator">Redux Calculator</a>
         <a href="/catPhotoApp">Cat Photo App</a>

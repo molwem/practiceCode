@@ -1,10 +1,11 @@
-import { useState } from "react";
-import { useDispatch } from 'react-redux';
-import { increment, decrement, clear } from "./bodySlice"
+// import { useState } from "react";
+import { useSelector, useDispatch } from 'react-redux';
+import { increment, decrement, clear, selectCount } from "./bodySlice"
 
 export function Counter() {
-    const [counter] = useState(0);
+    // const [counter] = useState(0);
     const dispatch = useDispatch();
+    const count = useSelector(selectCount);
   
     // const increment = () => {
     //     const increaseCounterValue = counter + 1;
@@ -23,7 +24,7 @@ export function Counter() {
     return (
         <div>
           <div>
-          <span>{counter}</span>
+          <span>{count}</span>
             <button
               aria-label="Increment value"
               onClick={() => dispatch(increment())}
