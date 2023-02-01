@@ -2,7 +2,6 @@ import './layout.css'
 
 const Layout = () => {
   return (
-    <>
       <div className="sidenav">
         <a href="/">Home</a>
         <a href="/reduxCalculator">Redux Calculator</a>
@@ -16,7 +15,6 @@ const Layout = () => {
         <a href="/surveyForm">Survey Form</a>
         <a href="/page-not-exist">No Page</a>
       </div>
-    </>
   );
 };
 
