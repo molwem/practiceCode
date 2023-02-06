@@ -55,12 +55,7 @@ const DrumKit = () => {
       </body>
 
       <script>
-      window.addEventListener('keydown', function(e) {
-          const audio = document.querySelector(`audio[data-key="${e.keycode}"]`);
-          if(!audio) return;
-          audio.currentTime = 0;
-          audio.play();
-      });
+        
       </script>
     </>
   );
