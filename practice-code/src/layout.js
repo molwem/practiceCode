@@ -5,6 +5,7 @@ const Layout = () => {
       <div className="sidenav">
         <a href="/">Home</a>
         <a href="/reduxCalculator">Redux Calculator</a>
+        <a href="/javascript30">#Javascript30</a>
         <a href="/catPhotoApp">Cat Photo App</a>
         <a href="/camperCafe">Camper Cafe</a>
         <a href="/colouredMarkers">Coloured Markers</a>
@@ -13,7 +14,7 @@ const Layout = () => {
         <a href="/nutritionLabel">Nutritional Label</a>
         <a href="/registrationForm">Registration Form</a>
         <a href="/surveyForm">Survey Form</a>
-        <a href="/page-not-exist">No Page</a>
+        {/* <a href="/page-not-exist">No Page</a> */}
       </div>
   );
 };
